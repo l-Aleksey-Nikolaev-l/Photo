@@ -5,17 +5,39 @@
         <title>My site</title>
         <meta name="autor" content="A.Nikolaev">
         <meta name="description" content="Site about nature">
+        
+        <style>
+            ul#new_menu li{display: inline;}
+            ol#next_menu li{display: inline;}
+            ul#the_last-menu li{display: inline;}
+        </style>
+
     </head>
 
     <body>
-        <h1>Introduction</h1>
-        <div>
-            <img src="/content/DSC08492.jpg" alt="My wife and I" height="300" width="200" style="float:left; margin-right: 8px;">
-            <P>Dear<span style="color:red"> guests!</span></P>
-        </div>
-        <h2><span style="color:cornflowerblue">Links</span></h2>
-        <div>
-            <p><del><a href="https://www.microsoft.com">Microsoft</a></del></p>
-        </div>
+        <ul id="new_menu" style="list-style-type:none;">
+            <li>Animals</li>
+            <li>Transport</li>
+            <li>People</li>
+            <li>Nature</li>
+            <li>Art</li>
+        </ul>
+
+        <ol id="next_menu" style="list-style-type:none;">
+            <li>A cat</li>
+            <li>A dog</li>
+            <li>A cow</li>
+            <li>A sheep</li>
+            <li>A duck</li>
+        </ol>
+
+
+        <ul id="the_last-menu" style="list-style-type:circle;">
+            <li>A car</li>
+            <li>A airbus</li>
+            <li>A ship</li>
+            <li>A train</li>
+            <li>A bicycle</li>
+        </ul>
     </body>
 </html>
