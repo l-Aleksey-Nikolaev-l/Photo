@@ -5,76 +5,69 @@
         <title>My site</title>
         <meta name="autor" content="A.Nikolaev">
         <meta name="description" content="This is site about...">
-
+        
         <style>
-            ul#list1 li {display: inline;}
+            table, tbody, thead, tfoot, caption, tr, td {border: 1px solid black; font-size: 34px;}
+            td {
+                height: 100px;
+                width: 100px;
+                text-align: center;
+            }
+            caption {color:blueviolet; font-family: Arial, Helvetica, sans-serif;}
+            tr {color:green}
         </style>
     </head>
 
     <body>
-        <h1>Our planet</h1>
+        <table>
+            <caption>Table caption</caption>
+            
+            <th colspan="2">Topchik</th>
 
-        <details style="clear:both; padding-top: 16px">
-            <summary style="font-size: 32px; cursor:pointer;"><span style="color:green;">Animals</span></summary>
-                <dl>
-                    <img src="/content/Animals.png" alt="Image with animals" heigth="300" width="200" style="float:left; margin-right: 8px;" />   
-                        <dt></dt>
-                            <dd style="font-size: 24px; font-family: 'Times New Roman', Times, serif;">
-                                <em>Animals</em> are multicellular, eukaryotic organisms in the biological kingdom Animalia. 
-                                With few exceptions, animals consume organic material, breathe oxygen, are able to move, 
-                                can reproduce sexually, and go through an ontogenetic stage in which their body consists 
-                                of a hollow sphere of cells, the blastula, during embryonic development. Over 1.5 million 
-                                living animal species have been described—of which around 1 million are insects—but 
-                                it has been estimated there are over 7 million animal species in total. Animals range 
-                                in length from 8.5 micrometres (0.00033 in) to 33.6 metres (110 ft). They have complex 
-                                interactions with each other and their environments, forming intricate food webs. 
-                                The scientific study of animals is known as zoology.
-                            </dd>
-                </dl>
-        </details>
+            <tr>
+                <td>Animals</td> <td>Transport</td>
+            </tr>
 
-        <details style="clear:both; padding-top: 16px">
-            <summary style="font-size: 32px; cursor:pointer;"><span style="color:indianred;">Transport</span></summary>
-                <dl>
-                    <img src="/content/Transport.jpg" alt="Image with transport" height="200" width="300" style="float:left; margin-right: 8px;" />
-                        <dt></dt>
-                            <dd style="font-size: 24px; font-family: 'Times New Roman', Times, serif;">
-                                <mark>Transport</mark> (in British English), or transportation (in American English), is the movement 
-                                of humans, animals, and goods from one location to another. In other words, the action 
-                                of transport is defined as a particular movement of an organism or thing from a point 
-                                A (a place in space) to a point B.
-                                Modes of transport include air, land (rail and road), water, cable, pipeline, and space. 
-                                The field can be divided into infrastructure, vehicles, and operations. Transport enables 
-                                trade between people, which is essential for the development of civilizations.
-                                Transport infrastructure consists of the fixed installations, including roads, railways, 
-                                airways, waterways, canals, and pipelines and terminals such as airports, railway stations, 
-                                bus stations, warehouses, trucking terminals, refueling depots (including fueling docks and 
-                                fuel stations), and seaports. Terminals may be used both for interchange of passengers and 
-                                cargo and for maintenance.
-                                Means of transport are any of the different kinds of transport facilities used to carry people or 
-                                cargo. 
-                                They may include vehicles, riding animals, and pack animals. Vehicles may include wagons, 
-                                automobiles, bicycles, buses, trains, trucks, helicopters, watercraft, spacecraft, and aircraft.
-                            </dd>
-                </dl>
-        </details>
+            <thead>
+                <td colspan="2">My planet</td>
+            </thead>
 
-        <div>
-            <ul id="list1">
-                <li>A dog</li>
-                <li>A cat</li>
-                <li>A cow</li>
-                <li>A duck</li>
-                <li>A sheep</li>
-            </ul>
-        </div>
+            <tbody>
+                <th colspan="2">New caption</th>
+                <tr>
+                    <td>Animals</td> <td>Transport</td>
+                </tr>
+            </tbody>
 
-        <div>
-            <ol style="list-style-type:decimal-leading-zero;" start="3">
-                <li>A car</li>
-                <li>A tram</li>
-                <li>A boat</li>
-            </ol>
-        </div>
+            <tfoot>
+                <td colspan="2">The last cell</td>
+            </tfoot>
+
+        </table>
+
+        <table>
+
+            <tr>
+                <td rowspan="2" style="background-color:darkgray;">1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td colspan="2" style="background-color:lightsteelblue">7</td>
+            </tr>
+
+            <colgroup>
+                <td colspan="2">8</td>
+                <td>9</td>
+            </colgroup>
+        </table>
+
     </body>
 </html>
