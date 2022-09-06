@@ -4,16 +4,23 @@
         <meta charset="utf-8">
         <title>My site</title>
         <meta name="autor" content="A.Nikolaev">
-        <meta name="description" content="Site about nature">
+        <meta name="description" content="This is site about...">
+
+        <style>
+            ul#list1 li {display: inline;}
+        </style>
     </head>
 
     <body>
-        <dl>
-            <details style="padding-top: 32px;">
-                <summary>Animals</summary>
-                    <img src="/content/Animals.png" alt="Animals" height="600" width="400" style="padding-top: 8px; vertical-align: middle; float: left; margin-right: 8px;">
-                        <dt style="padding-top: 8px;"></dt>
-                            <dd>Animals are multicellular, eukaryotic organisms in the biological kingdom Animalia. 
+        <h1>Our planet</h1>
+
+        <details style="clear:both; padding-top: 16px">
+            <summary style="font-size: 32px; cursor:pointer;"><span style="color:green;">Animals</span></summary>
+                <dl>
+                    <img src="/content/Animals.png" alt="Image with animals" heigth="300" width="200" style="float:left; margin-right: 8px;" />   
+                        <dt></dt>
+                            <dd style="font-size: 24px; font-family: 'Times New Roman', Times, serif;">
+                                <em>Animals</em> are multicellular, eukaryotic organisms in the biological kingdom Animalia. 
                                 With few exceptions, animals consume organic material, breathe oxygen, are able to move, 
                                 can reproduce sexually, and go through an ontogenetic stage in which their body consists 
                                 of a hollow sphere of cells, the blastula, during embryonic development. Over 1.5 million 
@@ -23,18 +30,16 @@
                                 interactions with each other and their environments, forming intricate food webs. 
                                 The scientific study of animals is known as zoology.
                             </dd>
-                            <ol style="list-style-type:none;">
-                                <li>A cat</li>
-                                <li>A dog</li>
-                                <li><span style="color:blue;">A cow</span></li>
-                            </ol>
-            </details>
+                </dl>
+        </details>
 
-            <details style="clear:both; padding-top: 32px;">
-                <summary>Transport</summary>
-                    <img src="/content/Transport.jpg" alt="Transport" height="400" width="600" style="padding-top: 8px; vertical-align: middle; float: left; margin-right: 8px;">
-                        <dt style="padding-top:8px;"></dt>
-                            <dd>Transport (in British English), or transportation (in American English), is the movement 
+        <details style="clear:both; padding-top: 16px">
+            <summary style="font-size: 32px; cursor:pointer;"><span style="color:indianred;">Transport</span></summary>
+                <dl>
+                    <img src="/content/Transport.jpg" alt="Image with transport" height="200" width="300" style="float:left; margin-right: 8px;" />
+                        <dt></dt>
+                            <dd style="font-size: 24px; font-family: 'Times New Roman', Times, serif;">
+                                <mark>Transport</mark> (in British English), or transportation (in American English), is the movement 
                                 of humans, animals, and goods from one location to another. In other words, the action 
                                 of transport is defined as a particular movement of an organism or thing from a point 
                                 A (a place in space) to a point B.
@@ -46,11 +51,30 @@
                                 bus stations, warehouses, trucking terminals, refueling depots (including fueling docks and 
                                 fuel stations), and seaports. Terminals may be used both for interchange of passengers and 
                                 cargo and for maintenance.
-                                Means of transport are any of the different kinds of transport facilities used to carry people or cargo. 
+                                Means of transport are any of the different kinds of transport facilities used to carry people or 
+                                cargo. 
                                 They may include vehicles, riding animals, and pack animals. Vehicles may include wagons, 
                                 automobiles, bicycles, buses, trains, trucks, helicopters, watercraft, spacecraft, and aircraft.
                             </dd>
-            </details>
-        </dl>    
+                </dl>
+        </details>
+
+        <div>
+            <ul id="list1">
+                <li>A dog</li>
+                <li>A cat</li>
+                <li>A cow</li>
+                <li>A duck</li>
+                <li>A sheep</li>
+            </ul>
+        </div>
+
+        <div>
+            <ol style="list-style-type:decimal-leading-zero;" start="3">
+                <li>A car</li>
+                <li>A tram</li>
+                <li>A boat</li>
+            </ol>
+        </div>
     </body>
 </html>
