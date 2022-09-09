@@ -2,19 +2,30 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>My own site</title>
+        <title>My site</title>
         <meta name="autor" content="A.Nikolaev">
-        <meta naem="description" content="This is site about...">
+        <meta name="description" content="This is site about...">
+
+        <style>
+            /* table, td {border: 1px solid black;} */
+        </style>
+
     </head>
 
     <body>
-        <form method="get" action="index.html" enctype="application/x-www-form-urlencoded">
-        <!-- <form method="post" action="http://localhost:5500/login.php" enctype="application/x-www-form-urlencoded"> -->
-
-            <input type="text" name="Login" value="User login" autocomplete="off"/>
-            <input type="reset"/>
-            <input type="submit" value="Login"/>
-            <input type="button" value="Buttttton"/>
-        </form>
+        <details>
+            <summary>Animals</summary>
+            <table width="100%">
+                <tr>
+                    <td style="width: 400px;">
+                        <label>Write an animal name</label>
+                        <input type="text" name="Animal name" style="width: 100%">
+                    </td>
+                    <td>
+                        <input type="Button" name="Apply" value="SU" style="height: 40px; width: 40px;">
+                    </td>
+                </tr>
+            </table>
+        </details>
     </body>
 </html>
