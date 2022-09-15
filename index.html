@@ -9,19 +9,18 @@
 
     <body>
         <p>
-            <label for="numbers">Number:</label>
-            <input type="number" list="Price" step="1" min="0" max="100" value="0" name="numbers" id="numbers">
+            <h2>Colors</h2>
         </p>
         <p>
-            <label for="range">Range:</label>
-            0 <input type="range" step="1" min="0" max="100" value="0" name="range" id="range"> 100
+            <input type="color" list="preColors" name="favColor" id="favColor">
         </p>
+
     </body>
 
-    <datalist id="Price">
-        <option value="10">10</option>
-        <option value="20">20</option>
-        <option value="50">50</option>
+    <datalist id="preColors">
+        <option value="#0000ff" label="Blue">
+        <option value="#00ff00" label="Green">
+        <option value="#ff0000" label="Red">
     </datalist>
 
 </html>
