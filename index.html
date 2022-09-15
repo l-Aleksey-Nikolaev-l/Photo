@@ -2,5 +2,25 @@
 <html>
     <head></head>
 
-    <body></body>
+    <body>
+
+        <p><select name="Phones" id="phones">   <!--This is without datalist -->
+            <optgroup label="Phpnes">
+                <option value="Pixel">Pixel </option>
+                <option value="iPhone">iPhone</option>
+                <option value="Nokia">Nokia</option>
+            </optgroup>
+        </select></p>
+        
+
+        <p><input list="Phones" type="text" ></p>  <!-- This is with datalist -->
+
+    </body>
+
+    <datalist id="Phones">
+        <option value="Pixel" label="300$"/>
+        <option value="iPhone">300$</option>
+        <option value="Nokia"></option>
+    </datalist>
+
 </html>
