@@ -9,18 +9,21 @@
 
     <body>
         <p>
-            <h2>Colors</h2>
+            <h2>URL, email, Tel</h2>
         </p>
         <p>
-            <input type="color" list="preColors" name="favColor" id="favColor">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="username@site.com" autocomplete="off" required style="background-color: yellow;">
+        </p>
+        <p>
+            <label for="tel">Tel.:</label>
+            <input type="tel" name="tel" id="tel" placeholder="+X-XXX-XXX-XX-XX" autocomplete="off" required>
+        </p>
+        <p>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url" placeholder="www.mysite.com" autocomplete="off" required>
         </p>
 
     </body>
-
-    <datalist id="preColors">
-        <option value="#0000ff" label="Blue">
-        <option value="#00ff00" label="Green">
-        <option value="#ff0000" label="Red">
-    </datalist>
 
 </html>
