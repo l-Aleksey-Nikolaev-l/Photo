@@ -9,19 +9,19 @@
 
     <body>
         <p>
-            <label for="login">Login:</label>
-            <input type="text" name="login" id="login" placeholder="Login" autofocus autocomplete="off" required>
+            <label for="numbers">Number:</label>
+            <input type="number" list="Price" step="1" min="0" max="100" value="0" name="numbers" id="numbers">
         </p>
-
         <p>
-            <label for="password">Password:</label>
-            <input type="text" name="password" id="password" placeholder="Password" required>
+            <label for="range">Range:</label>
+            0 <input type="range" step="1" min="0" max="100" value="0" name="range" id="range"> 100
         </p>
-
-        <p>
-            <button>Sign In</button>
-        </p>
-
     </body>
+
+    <datalist id="Price">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+    </datalist>
 
 </html>
