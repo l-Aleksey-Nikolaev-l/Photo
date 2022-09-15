@@ -9,17 +9,14 @@
 
     <body>
         <form method="get"">
-            <p>
-                <h2>Textarea</h2>
-            </p>
-    
-            <p>
-                <label>Write your comment:</label> <br>
-                <textarea name="ta" id="ta" placeholder="200 sumbols max." maxlength="200" cols="10" rows="3"></textarea>
-            </p>
-            <p>
-                <input type="submit" value="Send">
-            </p>
+            <fieldset>
+                <legend>Enter info:</legend>
+                <label for="login">Login:</label><br>
+                <input type="text" name="login" id="login" placeholder="Username" required><br><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" placeholder="Password" required><br><br>
+                <input type="submit" value="Log In">
+            </fieldset>
         </form>
     </body>
 
