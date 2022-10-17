@@ -163,3 +163,9 @@ li a {
     text-decoration: none;
     color: white;
 }
+
+footer p {
+    color: #ff00ff;
+    position:absolute;
+    vertical-align: bottom;
+}

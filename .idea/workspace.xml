@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9c18c9f-1a05-4511-bb9f-12a978927891" name="Changes" comment="RELEASE 1.0.2.1">
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="d9c18c9f-1a05-4511-bb9f-12a978927891" name="Changes" comment="RELEASE 2.0.0.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/Shut/Parlament.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,8 @@
       <workItem from="1665502088244" duration="2568000" />
       <workItem from="1665571684518" duration="657000" />
       <workItem from="1665819476224" duration="16899000" />
-      <workItem from="1665843283327" duration="3626000" />
+      <workItem from="1665843283327" duration="3704000" />
+      <workItem from="1666000184389" duration="1931000" />
     </task>
     <task id="LOCAL-00001" summary="RELEASE 1.0.2.1">
       <created>1665502728840</created>
@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665502775268</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="RELEASE 2.0.0.0">
+      <created>1665846978954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665846978954</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RELEASE 1.0.2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="RELEASE 1.0.2.1" />
+    <MESSAGE value="RELEASE 2.0.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="RELEASE 2.0.0.0" />
   </component>
 </project>
