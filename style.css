@@ -1,8 +1,8 @@
-/*
-table, tr, td {
+
+table, tr, td, caption {
     border: solid #2B3139 1px;
 }
-*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -32,20 +32,21 @@ html {
     font-size: 24px;
 }
 
+.main_table {
+    width: 100%;
+}
+
 .main_table caption {
-    padding-bottom: 40px;
     color: #2B3139;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 36px;
-}
-
-.main_table {
-    width: 100%;
-    margin-top: 50px;"
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .main_table_description {
-    padding-bottom: 40px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     text-align: left;
     color: #6D7177;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,20 +60,16 @@ html {
 }
 
 .main_table_left_picture, .main_table_right_picture {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 8px;
+    padding: 16px 8px;
     direction: rtl;
 }
 
 .main_table_right_picture {
-    width: 50%;
     direction: ltr;
 }
 
 .images_container {
-    height: 400px;
-    width: 600px;
+    width: 64%;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25);
     overflow: hidden;
     transition: box-shadow 400ms ease-in-out, border-radius 400ms ease-in-out;
@@ -104,8 +101,8 @@ html {
 }
 
 .main_table_row_one p {
-    margin-left: 64px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 25%;
     text-align: left;
     color: #6D7177;
     font-family: Arial, Helvetica, sans-serif;
@@ -120,10 +117,6 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 24px;
-}
-
-.footer {
-    padding-top: 60px;
 }
 
 .footer img {
@@ -143,7 +136,6 @@ ul {
     flex-direction: row;
     list-style: none;
     padding: 16px 0;
-
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     background-color: #1E2F3C;
@@ -164,8 +156,29 @@ li a {
     color: white;
 }
 
-footer p {
-    color: #ff00ff;
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #1E2F3C;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+footer .author {
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.author p {
+    color: ghostwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
     position:absolute;
-    vertical-align: bottom;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: 5%;
+    user-select: none;
 }
