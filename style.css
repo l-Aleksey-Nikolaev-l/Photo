@@ -1,8 +1,8 @@
-
+/*
 table, tr, td, caption {
     border: solid #2B3139 1px;
 }
-
+*/
 html {
     scroll-behavior: smooth;
 }
@@ -12,6 +12,7 @@ html {
     height: 250px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
+    user-select: none;
 }
 
 .captions div {
@@ -25,11 +26,13 @@ html {
 .caption_one {
     top: 8%;
     font-size: 3.5rem; /*56px*/
+    user-select: none;
 }
 
 .caption_two {
     top: 150px;
-    font-size: 24px;
+    font-size: 2rem; /*24px;*/
+    user-select: none;
 }
 
 .main_table {
